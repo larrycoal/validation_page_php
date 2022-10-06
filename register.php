@@ -78,10 +78,6 @@ if (count($errors) == 0) {
 } else {
     $_SESSION['error'] = $errors;
     header("location:index.php");
-    // foreach ($errors as $error) {
-    //     echo "<div>$error</div>";
-    // }
-    // echo '<button onclick="location.href=\'index.php\';" type="button">Go Back</button>';
 }
 
 function is_valid_email($email)

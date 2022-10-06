@@ -61,16 +61,14 @@ $errors = $_SESSION['error'];
                <?php if (isset($_SESSION['error']) && isset($errors['emailErr'])) {echo $errors['emailErr'];}?>
                 </p>
             </div>
-<div>
+             <div>
                 <label for="dob">Date of birth</label>
                 <input type="date" name="dob" id="dob" placeholder="Enter date of birth">
                   <p class="error">
                <?php if (isset($_SESSION['error']) && isset($errors['dobErr'])) {echo $errors['dobErr'];}?>
                 </p>
             </div>
-
          </section>
-
             <div>
                 <label for="address">Address</label>
                 <input type="text" name="address" id="address" placeholder="Enter your residential address">
